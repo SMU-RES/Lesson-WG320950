@@ -1,0 +1,6 @@
+filename,source_image,source_label,qr_present
+syn-service_orange_note-0159-324671717e.png,dataset/images/test/syn-service_orange_note-0159-324671717e.png,dataset/labels/test/syn-service_orange_note-0159-324671717e.txt,true
+syn-ledger_teal_blocks-0069-4a83ede546.png,dataset/images/val/syn-ledger_teal_blocks-0069-4a83ede546.png,dataset/labels/val/syn-ledger_teal_blocks-0069-4a83ede546.txt,true
+syn-thermal_beige_mixed-0139-860afb7997.png,dataset/images/train/syn-thermal_beige_mixed-0139-860afb7997.png,dataset/labels/train/syn-thermal_beige_mixed-0139-860afb7997.txt,true
+syn-service_navy_lines-0008-88f6523a97.png,dataset/images/test/syn-service_navy_lines-0008-88f6523a97.png,dataset/labels/test/syn-service_navy_lines-0008-88f6523a97.txt,false
+syn-service_navy_lines-0019-7ef91d1dc6.png,dataset/images/test/syn-service_navy_lines-0019-7ef91d1dc6.png,dataset/labels/test/syn-service_navy_lines-0019-7ef91d1dc6.txt,false

@@ -1,0 +1,14 @@
+[project]
+name = "license-plate-digit-cnn"
+version = "0.1.0"
+description = "Simple CNN for digit classification in a license-plate-style classroom assignment"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "torch>=2.2",
+]
+
+[tool.uv]
+package = false

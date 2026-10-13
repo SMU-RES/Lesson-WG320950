@@ -1,0 +1,2 @@
+[console_scripts]
+smart-invoice = invoice_app.app:main

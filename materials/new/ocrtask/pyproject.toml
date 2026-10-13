@@ -1,0 +1,42 @@
+[project]
+name = "container-ocr"
+version = "0.1.0"
+description = "GPU-only OCR inference demo for shipping container numbers and size/type codes."
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "gradio>=4.44.0",
+    "numpy>=1.24.0",
+    "opencv-python>=4.9.0",
+    "pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+ocr = [
+    "paddleocr>=3.0.0",
+]
+
+[project.scripts]
+container-ocr-ui = "container_ocr.app:main"
+container-ocr = "container_ocr.cli:main"
+container-ocr-verify-gpu = "container_ocr.gpu:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/container_ocr"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.basedpyright]
+include = ["src", "tests", "scripts"]
+extraPaths = ["src"]
+reportMissingTypeStubs = "none"

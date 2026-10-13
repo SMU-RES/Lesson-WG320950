@@ -1,0 +1,20 @@
+{
+  "include": ["src", "tests", "scripts"],
+  "extraPaths": ["src"],
+  "typeCheckingMode": "basic",
+  "reportAny": "none",
+  "reportCallInDefaultInitializer": "none",
+  "reportExplicitAny": "none",
+  "reportMissingParameterType": "none",
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": "none",
+  "reportUnannotatedClassAttribute": "none",
+  "reportUnnecessaryCast": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownParameterType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnusedCallResult": "none",
+  "reportUnusedFunction": "none",
+  "reportUnusedParameter": "none"
+}

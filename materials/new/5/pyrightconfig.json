@@ -1,0 +1,10 @@
+{
+  "typeCheckingMode": "basic",
+  "diagnosticSeverityOverrides": {
+    "reportAny": "none",
+    "reportUnknownArgumentType": "none",
+    "reportUnknownMemberType": "none",
+    "reportUnknownVariableType": "none",
+    "reportUnusedCallResult": "none"
+  }
+}

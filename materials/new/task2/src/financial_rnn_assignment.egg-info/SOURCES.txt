@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/train_rnn.py
+src/financial_rnn_assignment.egg-info/PKG-INFO
+src/financial_rnn_assignment.egg-info/SOURCES.txt
+src/financial_rnn_assignment.egg-info/dependency_links.txt
+src/financial_rnn_assignment.egg-info/requires.txt
+src/financial_rnn_assignment.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+outputs/*
+!outputs/.gitkeep
+data/trudi_samples/*
+!data/trudi_samples/.gitkeep
+data/TRUDI/
+models/
+*.zip
+*.tar
+*.tar.gz
+*.7z

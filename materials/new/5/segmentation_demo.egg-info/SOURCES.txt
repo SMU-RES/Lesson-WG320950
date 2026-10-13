@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+segmentation_demo/__init__.py
+segmentation_demo/app.py
+segmentation_demo/cli.py
+segmentation_demo/infer.py
+segmentation_demo.egg-info/PKG-INFO
+segmentation_demo.egg-info/SOURCES.txt
+segmentation_demo.egg-info/dependency_links.txt
+segmentation_demo.egg-info/entry_points.txt
+segmentation_demo.egg-info/requires.txt
+segmentation_demo.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_infer.py
