@@ -1,0 +1,8 @@
+ultralytics
+gradio
+pillow
+opencv-python
+numpy
+
+[dev]
+pytest

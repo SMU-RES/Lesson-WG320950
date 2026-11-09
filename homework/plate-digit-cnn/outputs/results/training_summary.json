@@ -1,0 +1,22 @@
+{
+  "data_root": "data\\public_digits",
+  "epochs": 12,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "image_size": 32,
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "best_val_acc": 1.0,
+  "test_loss": 0.15966467559337616,
+  "test_accuracy": 0.9
+}

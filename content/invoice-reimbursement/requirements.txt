@@ -1,0 +1,13 @@
+Flask>=3.1.0
+openai>=1.64.0
+openpyxl>=3.1.5
+Pillow>=11.1.0
+python-dotenv>=1.0.1
+
+# Real-mode dependencies are optional for local setup.
+# Install them with: uv sync --extra real
+# opencv-python>=4.10.0
+# paddleocr>=3.6.0
+# For local PaddleOCR GPU on Windows/Python 3.13, install Paddle from Paddle's CUDA index:
+# uv pip install --index-url https://www.paddlepaddle.org.cn/packages/stable/cu129/ paddlepaddle-gpu==3.3.1
+# ultralytics>=8.3.0

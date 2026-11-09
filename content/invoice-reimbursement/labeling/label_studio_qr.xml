@@ -1,0 +1,6 @@
+<View>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true" />
+  <RectangleLabels name="label" toName="image">
+    <Label value="qr" background="#22C55E" />
+  </RectangleLabels>
+</View>

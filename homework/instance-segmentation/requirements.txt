@@ -1,0 +1,6 @@
+ultralytics
+gradio
+pillow
+opencv-python
+numpy
+pytest
